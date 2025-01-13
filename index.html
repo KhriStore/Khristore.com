@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khristore - Penjualan WDP</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+        <h1>Khristore</h1>
+        <div class="features">
+            <div class="feature-item">
+                <p>Diskon Hingga <strong>20%</strong></p>
+            </div>
+            <div class="feature-item">
+                <p>Belanja <strong>Mudah</strong></p>
+            </div>
+            <div class="feature-item">
+                <p>Pengiriman <strong>Cepat</strong></p>
+            </div>
+        </div>
+    </div>
+    <div class="nav-buttons">
+        <a href="profile.html" class="btn">Tentang Khristore</a>
+    </div>
+    <p class="dynamic-text">
+        <span id="dynamicText">Pilihan terbaik untuk kebutuhan WDP Anda</span>
+    </p>
+</header>
+
+
+
+    <main>
+        <!-- Deskripsi Pembelian -->
+        <section class="description">
+            <h2>Cara Mudah Membeli di Khristore</h2>
+            <p>
+                Khristore menawarkan pengalaman belanja yang cepat dan praktis. Pilih paket WDP favorit Anda dari daftar produk kami, lalu klik tombol 
+                <strong>"Beli Sekarang"</strong>. Anda akan langsung diarahkan ke WhatsApp untuk menyelesaikan pemesanan Anda. 
+                <br><br>
+                Nikmati penawaran diskon hingga <strong>20%</strong> untuk setiap pembelian paket tertentu. Jangan lewatkan kesempatan ini untuk mendapatkan produk terbaik dengan harga istimewa!
+            </p>
+        </section>
+
+        <!-- Daftar Produk -->
+        <div class="product-list">
+          <div class="product-item">
+              <h2>1X WDP</h2>
+              <p class="price">Rp 28.500,-</p>
+              <p class="discount">20% OFF</p>
+              <button onclick="redirectToWA(1)">Beli Sekarang</button>
+              <p class="promo">✔ Cocok untuk nabung nihh</p>
+          </div>
+          <div class="product-item">
+              <h2>2X WDP</h2>
+              <p class="price">Rp 56.000,-</p>
+              <p class="discount">20% OFF</p>
+              <button onclick="redirectToWA(2)">Beli Sekarang</button>
+              <p class="promo">✔ Hemat lebih banyak dengan pembelian paket</p>
+          </div>
+          <div class="product-item">
+              <h2>3X WDP</h2>
+              <p class="price">Rp 83.000,-</p>
+              <p class="discount">20% OFF</p>
+              <button onclick="redirectToWA(3)">Beli Sekarang</button>
+              <p class="promo">✔ Populer! Pilihan terbaik untuk hemat</p>
+          </div>
+          <div class="product-item">
+              <h2>5X WDP</h2>
+              <p class="price">Rp 143.000,-</p>
+              <p class="discount">20% OFF</p>
+              <button onclick="redirectToWA(5)">Beli Sekarang</button>
+              <p class="promo">✔ Penawaran terbaik! Hemat hingga 20%</p>
+          </div>
+      </div>
+      
+    </main>
+    <footer>
+      <p>© 2025 Khristore. Semua Hak Dilindungi.</p>
+      <div class="contact">
+          <p>Hubungi Kami:</p>
+          <p>
+              <i class="fas fa-envelope"></i> 
+              Email: <a href="mailto:goldendappay@gmail.com">support@khristore.com</a>
+          </p>
+          <p>
+              <i class="fas fa-phone-alt"></i> 
+              Telepon: <a href="tel:081289181330">0812-8918-1330</a>
+          </p>
+      </div>
+  </footer>
+  
+    <script src="script.js"></script>
+</body>
+</html>
