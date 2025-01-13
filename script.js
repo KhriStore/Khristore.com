@@ -1,5 +1,5 @@
 function redirectToWA(quantity) {
-  const phone = "081289181330";
+  const phone = "+6281289181330";
   const message = `Halo, saya ingin membeli ${quantity}X WDP. Mohon informasi lebih lanjut.`;
   const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
   window.open(url, "_blank");
